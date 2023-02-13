@@ -1,6 +1,10 @@
+/*variavel global, para criar o container da imagem*/
 const boxesContainer = document.getElementById('boxes')
+
+/*variavel global, para criar o botão*/
 const btn = document.getElementById('btn')
 
+/*adicionando a fonção de clicl no botão*/
 btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))
 
 function createBoxes() {
